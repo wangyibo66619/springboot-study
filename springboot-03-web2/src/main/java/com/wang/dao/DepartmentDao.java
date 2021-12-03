@@ -2,7 +2,7 @@ package com.wang.dao;
 
 import com.wang.pojo.Department;
 import org.springframework.stereotype.Repository;
-
+        
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
