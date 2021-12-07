@@ -31,7 +31,7 @@ public class EmployeeController {
         Collection<Department> departments = departmentDao.getDepartments();
         model.addAttribute("departments",departments );
         return "/emp/add";
-    }
+    }               
 
     @PostMapping("/emp")
     public String Add(Employee employee) {
