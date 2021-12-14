@@ -53,7 +53,7 @@ public class EmployeeController {
     public String updateEmp(Employee employee) {
         employeeDao.save(employee);
         return "redirect:/emps";
-    }
+    }                     
 
     @GetMapping("/delete/{id}")
     public String deleteEmp(@PathVariable("id") int id) {
