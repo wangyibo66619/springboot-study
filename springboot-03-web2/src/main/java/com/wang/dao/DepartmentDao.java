@@ -11,7 +11,7 @@ import java.util.Map;
 // 部门dao
 public class DepartmentDao {
     // 模拟数据库中的数据
-
+                          
     private static Map<Integer, Department> departments = null;
     static {
         departments = new HashMap<Integer, Department>();
